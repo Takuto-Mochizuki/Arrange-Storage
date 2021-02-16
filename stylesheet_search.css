@@ -1,0 +1,118 @@
+body{
+    background-image:url(search_wrapper.png);
+    /*background-color: rgba(242, 255, 255, 0.99);*/
+    background-color: rgba(244, 249, 252, 0.999);
+    background-blend-mode: lighten;
+    background-size: cover;
+    margin:0, auto;
+    width:cover;
+}
+
+header{
+    z-index:10;
+    background-color: rgba(9, 1, 24, 0.8);
+    /*align-items: center;*/
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+}
+.header_left{
+    display: inline-block;
+    margin-right: 500px;
+    margin-left: 50px; 
+}
+
+.header_left p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.header_right{
+    display:inline;
+    margin-left:620px;
+    
+}
+
+.upload{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+    margin-right: 25px;
+}
+.edit{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+    margin-right:25px;
+}
+.logout{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+}
+
+.sign-in{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 20px;
+    margin-left:70px;
+    text-decoration: none;
+}
+
+.search_wrapper{
+    margin-top:20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.search_holder{
+    width: 500px;
+    height: 20px;
+    opacity:0.5;
+    border:1.5px rgba(9, 1, 24, 0.8) solid;
+    background-color: rgb(230, 225, 225);
+}
+
+.fa-search{
+    height: 25px;
+    opacity:0.5;
+    border:1.5px  rgba(9, 1, 24, 0.8) solid;
+    background-color:  rgb(230, 225, 225);
+}
+
+.top_logo {
+    font-family: fantasy;
+    font-size: 14px;
+    margin-top: 37px;
+    display: inline-block;
+    text-align: center;
+    margin-left:300px;
+}
+
+.result{
+    font-family: serif;
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.result h3{
+    font-weight: bold;
+}
+
+.btn_top{
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 690px;
+}
+
+footer{
+    margin-top: 40px;
+    font-size:10px;
+    bottom:0;
+    height:20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}

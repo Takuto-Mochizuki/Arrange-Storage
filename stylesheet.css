@@ -1,0 +1,107 @@
+body{
+    /*background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),*/
+    background-image:url(top_img.png);
+    background-color: rgba(217, 240, 250, 0.999);
+    /*background-color: rgba(237, 248, 253, 0.999);*/
+    background-blend-mode: lighten;
+    background-size: cover;
+    margin:0, auto;
+    width:cover;
+}
+header{
+    z-index:10;
+    background-color: rgba(9, 1, 24, 0.8);
+    /*align-items: center;*/
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    display: inline-block;
+}
+.header_left{
+    display: inline-block;
+    margin-right: 500px;
+    margin-left: 50px; 
+}
+
+.header_left p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.header_right{
+    display:inline;
+    margin-left:620px;
+    
+}
+
+.upload{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+    margin-right: 25px;
+}
+.edit{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+    margin-right:25px;
+}
+.logout{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 26px;
+}
+.sign-in{
+    color: rgba(162, 225, 250, 0.9);
+    font-size: 20px;
+    margin-left:70px;
+    text-decoration: none;
+}
+
+.top_wrapper{
+    margin-top: 150px;
+}
+
+.top_logo {
+    font-family: fantasy;
+    display: block;
+    text-align: center;
+    font-size: 70px;
+}
+.search_wrapper{
+    margin-top:150px;
+    display: block;
+    text-align: center;
+}
+
+.search_holder{
+    width: 500px;
+    height: 25px;
+    opacity:0.5;
+    border:2px rgba(9, 1, 24, 0.8) solid;
+    background-color: rgb(230, 225, 225);
+}
+
+.fa-search{
+    height: 32px;
+    opacity:0.5;
+    border:2px  rgba(9, 1, 24, 0.8) solid;
+    background-color:  rgb(230, 225, 225);
+}
+
+.top_words{
+    font-family: fantasy;
+    display:block;
+    margin-top: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 150px;
+    font-size:10px;
+    bottom:0;
+    height:20px;
+    text-align: center;
+}
